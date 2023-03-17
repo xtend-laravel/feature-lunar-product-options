@@ -6,10 +6,10 @@ use CodeLabX\XtendLaravel\Base\XtendFeatureProvider;
 use Illuminate\Foundation\Events\LocaleUpdated;
 use Illuminate\Support\Facades\Event;
 use Livewire\Livewire;
-use Lunar\Features\ProductOptions\Livewire\Components\ProductOptions\OptionEdit;
-use Lunar\Features\ProductOptions\Livewire\Components\ProductOptions\OptionValueEdit;
-use Lunar\Features\ProductOptions\Pages\ProductOptions\ProductOptionsIndex;
 use Lunar\Hub\Facades\Menu;
+use XtendLunar\Features\ProductOptions\Livewire\Components\ProductOptions\OptionEdit;
+use XtendLunar\Features\ProductOptions\Livewire\Components\ProductOptions\OptionValueEdit;
+use XtendLunar\Features\ProductOptions\Livewire\Pages\ProductOptions\ProductOptionsIndex;
 
 class ProductOptionsProvider extends XtendFeatureProvider
 {

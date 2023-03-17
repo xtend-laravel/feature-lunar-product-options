@@ -86,7 +86,7 @@ class OptionEdit extends Component
      */
     public function render()
     {
-        return view('adminhub::livewire.components.product-options.option-edit')
+        return view('adminhub::livewire.components.option-edit')
             ->layout('adminhub::layouts.base');
     }
 }

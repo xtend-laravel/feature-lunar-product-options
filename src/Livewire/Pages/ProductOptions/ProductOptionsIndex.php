@@ -285,7 +285,7 @@ class ProductOptionsIndex extends Component
      */
     public function render()
     {
-        return view('adminhub::livewire.pages.product-options.index')
+        return view('adminhub::livewire.pages.product-options-index')
             ->layout('adminhub::layouts.app', [
                 'title' => 'Product Options',
             ]);
