@@ -1,6 +1,6 @@
 <?php
 
-namespace Lunar\Features\ProductOptions\Pages\ProductOptions;
+namespace XtendLunar\Features\ProductOptions\Livewire\Pages\ProductOptions;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;

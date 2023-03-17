@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Lunar\Features\ProductOptions\Pages\ProductOptions\ProductOptionsIndex;
 use Lunar\Hub\Http\Middleware\Authenticate;
+use XtendLunar\Features\ProductOptions\Livewire\Pages\ProductOptions\ProductOptionsIndex;
 
 /**
  * Product options routes.

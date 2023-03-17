@@ -1,6 +1,6 @@
 <?php
 
-namespace Lunar\Features\ProductOptions\Livewire\Components\ProductOptions;
+namespace XtendLunar\Features\ProductOptions\Livewire\Components\ProductOptions;
 
 use Livewire\Component;
 use Lunar\Hub\Http\Livewire\Traits\Notifies;
