@@ -1,0 +1,19 @@
+{
+    "name": "xtend-laravel/feature-lunar-product-options",
+    "description": "Lunar Product Options",
+    "type": "xtend-feature",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "XtendLunar\\Features\\ProductOptions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adam Lee",
+            "email": "adam@codelabx.ltd"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
