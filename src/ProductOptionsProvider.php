@@ -17,6 +17,7 @@ class ProductOptionsProvider extends XtendFeatureProvider
     {
         $this->loadRoutesFrom(__DIR__.'/../routes/hub.php');
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'adminhub');
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
     }
 
     public function boot(): void
