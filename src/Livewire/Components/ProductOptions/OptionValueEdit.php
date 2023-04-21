@@ -53,6 +53,8 @@ class OptionValueEdit extends Component
             $rules["optionValue.name.{$language->code}"] = ($language->default ? 'required' : 'nullable').'|max:255';
         }
 
+        $rules['optionValue.color'] = 'nullable';
+
         return $rules;
     }
 

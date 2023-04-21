@@ -83,6 +83,11 @@
                                         class="mr-2 text-gray-400 hover:text-gray-700" />
                                 </div>
                                 <span class="grow truncate">{{ $optionValue->translate('name') }}</span>
+                                @isset($optionValue->color)
+                                    <div class="ml-2">
+                                        <div class="w-4 border border-gray-200 h-4 rounded-full" style="background-color: {{ $optionValue->color }};"></div>
+                                    </div>
+                                @endisset
                                 <div class="mr-4 text-xs text-gray-500">
                                     {{ $optionValue->type }}
                                 </div>

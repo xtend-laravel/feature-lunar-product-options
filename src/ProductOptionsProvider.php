@@ -34,7 +34,7 @@ class ProductOptionsProvider extends XtendFeatureProvider
     {
         // Note: We listen to LocaleUpdated event to make sure translations are loaded and menu items are all available
         Event::listen(LocaleUpdated::class, function () {
-            Menu::slot('sidebar')->section('catalogue-manager')->addItem(function ($item) {
+            Menu::slot('sidebar')->group('hub.configure')->addItem(function ($item) {
                 $item->name('Product Options')
                     ->handle('hub.product-options')
                     ->route('hub.product-options.index')
