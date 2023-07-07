@@ -87,6 +87,17 @@
                                     <div class="ml-2">
                                         <div class="w-4 border border-gray-200 h-4 rounded-full" style="background-color: {{ $optionValue->color }};"></div>
                                     </div>
+                                @else
+                                    @isset($optionValue->primary_color)
+                                        <div class="ml-2">
+                                            <div class="w-4 border border-gray-200 h-4 rounded-full" style="background-color: {{ $optionValue->primary_color }};"></div>
+                                        </div>
+                                    @endisset
+                                    @isset($optionValue->secondary_color)
+                                        <div class="ml-2">
+                                            <div class="w-4 border border-gray-200 h-4 rounded-full" style="background-color: {{ $optionValue->secondary_color }};"></div>
+                                        </div>
+                                    @endisset
                                 @endisset
                                 <div class="mr-4 text-xs text-gray-500">
                                     {{ $optionValue->type }}
