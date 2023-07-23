@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::table($this->prefix.'product_option_values', function (Blueprint $table) {
             $table->string('primary_color')->nullable()->after('color');
             $table->string('secondary_color')->nullable()->after('primary_color');
-
+            $table->string('tertiary_color')->nullable()->after('secondary_color');
         });
     }
 
@@ -26,6 +26,7 @@ return new class extends Migration
         Schema::table($this->prefix.'product_option_values', function (Blueprint $table) {
             $table->dropColumn('primary_color');
             $table->dropColumn('secondary_color');
+            $table->dropColumn('tertiary_color');
         });
     }
 };

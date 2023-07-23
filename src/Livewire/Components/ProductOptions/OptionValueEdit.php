@@ -56,6 +56,7 @@ class OptionValueEdit extends Component
         $rules['optionValue.color'] = 'nullable';
         $rules['optionValue.primary_color'] = 'nullable';
         $rules['optionValue.secondary_color'] = 'nullable';
+        $rules['optionValue.tertiary_color'] = 'nullable';
 
         return $rules;
     }
